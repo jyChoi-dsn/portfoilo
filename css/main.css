@@ -1,0 +1,854 @@
+html {
+    font-size: 62.5%;
+    white-space: nowrap;
+}
+
+@font-face {
+    font-family: 'valera';
+    src: url(../font/Varela-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Subrayada';
+    src: url(../font/MontserratSubrayada-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../font/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: url(../font/NanumSquareR.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Gruppo';
+    src: url(../font/Gruppo-Regular.ttf) format('truetype');
+}
+
+#fullpage > section {
+    height: 980px;
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    right: 70px;
+    width: 544px;
+    height: 113px;
+    z-index: 100;
+}
+
+#header .h_box {
+    display: block;
+    position: relative;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 1.8rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+    transition: 200ms ease-in-out;
+}
+
+#header .h_box:hover {
+    color: black;
+    background-color: white;
+}
+
+.topbar {
+    position: absolute;
+    display: flex;
+    top: 50px;
+    left: 0;
+    font-size: 1.8rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+    z-index: 100;
+}
+.left {
+    left: 70px;
+}
+.middle {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 7.2rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: white;
+}
+
+#section01 {
+    background: #000;
+    position: relative;
+}
+
+#section01 .wave {
+    position: absolute;
+    width: 2527px;
+    height: 916px;
+    top: 26px;
+    left: -127px;
+}
+
+#section01 .up {
+    top: 382px;
+    text-shadow: 1px 0px 3px #000;
+}
+#section01 .down {
+    top: 470px;
+    text-shadow: 1px 0px 3px #000;
+}
+#section01 .subtitle {
+    position: absolute;
+    top: 596px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.6rem;
+    font-family: 'Gruppo', sans-serif;
+    color: rgb(205, 205, 205);
+    text-shadow: 1px 0px 3px #000;
+}
+
+#section01 .scroll {
+    position: absolute;
+    bottom: 157px;
+    right: 511px;
+    font-size: 1.2rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+
+#section01 .line {
+    position: absolute;
+    width: 1px;
+    height: 100px;
+    bottom: 33px;
+    right: 535px;
+    background-color: white;
+}
+
+
+#section02 {
+    background: #000;
+    position: relative;
+}
+
+#section02 .chair {
+    position: absolute;
+    width: 1150px;
+    height: 980px;
+    top: 305px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#section02 .intro_kr {
+    position: absolute;
+    top: 299px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3.6rem;
+    font-family: 'NanumSquare', sans-serif;
+    line-height: 6.4rem;
+    text-align: center;
+    color: white;
+}
+
+#section02 .line {
+    position: absolute;
+    top: 534px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 1px;
+    background-color: white;
+}
+
+#section02 .intro_en {
+    position: absolute;
+    top: 580px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.2rem;
+    font-family: 'valera', sans-serif;
+    line-height: 3.6rem;
+    text-align: center;
+    color: white;
+}
+
+
+#section03 {
+    background: rgb(18, 18, 18);
+    position: relative;
+}
+
+#section03 .line {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#section03 .photo {
+    position: absolute;
+    top: 272px;
+    left: 182px;
+    width: 372px;
+    height: 372px;
+}
+
+#section03 .name {
+    position: absolute;
+    display: flex;
+    top: 695px;
+    left: 263px;
+}
+
+#section03 .nameen {
+    bottom: 0;
+    left: 0;
+    font-size: 2.8rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section03 .namekr {
+    bottom: 0;
+    margin-left: 48px;
+    font-size: 2.4rem;
+    font-family: 'NanumSquare', sans-serif;
+    color: white;
+}
+
+#section03 .birth {
+    position: absolute;
+    display: flex;
+    top: 744px;
+    left: 263px;
+}
+
+#section03 .birthen {
+    bottom: 0;
+    left: 0;
+    font-size: 2.8rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section03 .birthdate {
+    bottom: 0;
+    margin-left: 48px;
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#section03 .box1 {
+    position: absolute;
+    display: block;
+    border: 1px solid white;
+    border-radius: 20px;
+    top: 168px;
+    left: 875px;
+    width: 136px;
+    height: 32px;
+}
+
+#section03 .box2 {
+    position: absolute;
+    display: block;
+    border: 1px solid white;
+    border-radius: 20px;
+    top: 526px;
+    left: 875px;
+    width: 136px;
+    height: 32px;
+}
+
+#section03 .box3 {
+    position: absolute;
+    display: block;
+    border: 1px solid white;
+    border-radius: 20px;
+    top: 168px;
+    left: 1377px;
+    width: 100px;
+    height: 32px;
+}
+
+#section03 .box4 {
+    position: absolute;
+    display: block;
+    border: 1px solid white;
+    border-radius: 20px;
+    top: 526px;
+    left: 1377px;
+    width: 100px;
+    height: 32px;
+}
+
+#section03 .box p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 32px;
+    font-size: 1.6rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+
+#section03 .bar {
+    position: absolute;
+    top: 850px;
+    width: 100vw;
+    height: 130px;
+}
+
+#section03 .barbox {
+    display: block;
+    position: absolute;
+    left: 78px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 224px;
+    height: 56px;
+    line-height: 56px;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 2.6rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+#section03 .barbox p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section03 .phone {
+    position: absolute;
+    display: flex;
+    left: 429px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#section03 .phoneen {
+    bottom: 0;
+    left: 0;
+    font-size: 2.6rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(136, 136, 136);
+}
+#section03 .phonenum {
+    bottom: 0;
+    margin-left: 40px;
+    font-size: 2.6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#section03 .email {
+    position: absolute;
+    display: flex;
+    left: 911px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#section03 .emailen {
+    bottom: 0;
+    left: 0;
+    font-size: 2.6rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(136, 136, 136);
+}
+#section03 .emailad {
+    bottom: 0;
+    margin-left: 40px;
+    font-size: 2.6rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+
+#section03 .web {
+    position: absolute;
+    display: flex;
+    left: 1421px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#section03 .weben {
+    bottom: 0;
+    left: 0;
+    font-size: 2.6rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(136, 136, 136);
+}
+#section03 .webad {
+    bottom: 0;
+    margin-left: 40px;
+    font-size: 2.6rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+
+#section03 .intro_1_1 {
+    position: absolute;
+    top: 237px;
+    left: 898px;
+    font-size: 1.8rem;
+    font-family: 'NanumSquare', sans-serif;
+    color: rgb(205, 205, 205);
+}
+
+#section03 .intro_1_2 {
+    position: absolute;
+    top: 269px;
+    left: 921px;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section03 .intro_1_3 {
+    position: absolute;
+    top: 296px;
+    left: 921px;
+    font-size: 1.6rem;
+    font-family: 'NanumSquare', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section03 .intro_1_4 {
+    position: absolute;
+    top: 362px;
+    left: 898px;
+    font-size: 1.8rem;
+    font-family: 'NanumSquare', sans-serif;
+    color: rgb(205, 205, 205);
+}
+
+#section03 .intro_1_5 {
+    position: absolute;
+    top: 394px;
+    left: 921px;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section03 .intro_1_6 {
+    position: absolute;
+    top: 420px;
+    left: 921px;
+    font-size: 1.6rem;
+    font-family: 'NanumSquare', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section03 .intro_2_1 {
+    position: absolute;
+    top: 594px;
+    left: 898px;
+    font-size: 1.8rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(205, 205, 205);
+}
+
+#section03 .intro_2_2 {
+    position: absolute;
+    top: 625px;
+    left: 921px;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section03 .intro_2_3 {
+    position: absolute;
+    top: 651px;
+    left: 921px;
+    font-size: 1.6rem;
+    font-family: 'NanumSquare', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section03 .intro_2_4 {
+    position: absolute;
+    top: 716px;
+    left: 898px;
+    font-size: 1.8rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(205, 205, 205);
+}
+
+#section03 .intro_2_5 {
+    position: absolute;
+    top: 747px;
+    left: 921px;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section03 .intro_2_6 {
+    position: absolute;
+    top: 773px;
+    left: 921px;
+    font-size: 1.6rem;
+    font-family: 'NanumSquare', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section03 .intro_3_1 {
+    position: absolute;
+    top: 225px;
+    left: 1400px;
+    line-height: 4.1rem;
+    font-size: 1.8rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(205, 205, 205);
+}
+
+#section03 .intro_3_2 {
+    position: absolute;
+    top: 225px;
+    left: 1643px;
+    line-height: 4.1rem;
+    font-size: 1.8rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(205, 205, 205);
+}
+
+#section03 .intro_4 {
+    position: absolute;
+    top: 580px;
+    left: 1400px;
+    line-height: 4.1rem;
+    font-size: 1.8rem;
+    font-family: 'NanumSquare', sans-serif;
+    color: rgb(205, 205, 205);
+}
+
+
+
+
+#section04 {
+    background: #000;
+    position: relative;
+}
+
+#section04 .topbox {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 113px;
+    background-color: rgb(18, 18, 18);
+}
+#section04 .topline {
+    position: absolute;
+    top: 114px;
+    width: 100vw;
+    height: 1px;
+    background-color: rgb(91, 91, 91);
+}
+
+#section04 .works {
+    position: absolute;
+    display: flex;
+    top: 275px;
+    left: 180px;
+    z-index: 90;
+}
+#section04 .works div + div {
+    margin-left: 120px;
+}
+
+#section04 .work1 {
+    position: relative;
+}
+
+#section04 .work1 .work1-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 350px;
+}
+#section04 .work1 .work1-image-wrapper img:hover {
+    transform: scale(1.1);
+    transition: .6s ease-in-out;
+}
+
+/* 숫자 만들기 */
+#section04 .work1 .num1::before {
+    content: '1';
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: -33px;
+    font-size: 14rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(56, 56, 56);
+    transition: 200ms ease-in-out;
+}
+#section04 .work1 .num1:hover::before {
+    color: rgb(160, 160, 160);
+}
+/* 숫자 만들기 끝*/
+
+#section04 .work1 .work1-image-wrapper img {
+    position: absolute;
+}
+
+#section04 .work2 {
+    position: relative;
+}
+
+#section04 .work2 .work2-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 350px;
+}
+#section04 .work2 .work2-image-wrapper img:hover {
+    transform: scale(1.1);
+    transition: .6s ease-in-out;
+}
+
+#section04 .work2 .num2::before {
+    content: '2';
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: -33px;
+    font-size: 14rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(56, 56, 56);
+    transition: 200ms ease-in-out;
+}
+#section04 .work2 .num2:hover::before {
+    color: rgb(160, 160, 160);
+}
+
+#section04 .work2 .work2-image-wrapper img {
+    position: absolute;
+}
+
+#section04 .work3 {
+    position: relative;
+}
+
+#section04 .work3 .work3-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 350px;
+}
+#section04 .work3 .work3-image-wrapper img:hover {
+    transform: scale(1.1);
+    transition: .6s ease-in-out;
+}
+
+#section04 .work3 .num3::before {
+    content: '3';
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: -33px;
+    font-size: 14rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(56, 56, 56);
+    transition: 200ms ease-in-out;
+}
+#section04 .work3 .num3:hover::before {
+    color: rgb(160, 160, 160);
+}
+
+#section04 .work3 .work3-image-wrapper img {
+    position: absolute;
+}
+
+#section04 .work4 {
+    position: relative;
+}
+
+#section04 .work4 .work4-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 350px;
+}
+#section04 .work4 .work4-image-wrapper img:hover {
+    transform: scale(1.1);
+    transition: .6s ease-in-out;
+}
+
+#section04 .work4 .num4::before {
+    content: '4';
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: -33px;
+    font-size: 14rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(56, 56, 56);
+    transition: 200ms ease-in-out;
+}
+#section04 .work4 .num4:hover::before {
+    color: rgb(160, 160, 160);
+}
+
+#section04 .work4 .work4-image-wrapper img {
+    position: absolute;
+}
+
+
+#section04 .works .text_up {
+    position: absolute;
+    left: 0;
+    margin-top: 36px;
+    font-size: 1.6rem;
+    font-family: 'valera', sans-serif;
+    color: rgb(136, 136, 136);
+}
+
+#section04 .works .text_down {
+    position: absolute;
+    left: 0;
+    margin-top: 72px;
+    font-size: 2rem;
+    font-family: 'NanumSquare', sans-serif;
+    line-height: 3rem;
+    color: white;
+}
+
+#section04 .works .button {
+    display: block;
+    position: absolute;
+    top: 550px;
+    left: 0;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+#section04 .button p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+
+#section04 .verline {
+    position: absolute;
+    display: flex;
+    top: 275px;
+    left: 540px;
+    z-index: 10;
+}
+
+#section04 .verline .line1 {
+    width: 1px;
+    height: 630px;
+    background-color: rgb(91, 91, 91);
+}
+
+#section04 .verline .line2 {
+    width: 1px;
+    height: 630px;
+    background-color: rgb(91, 91, 91);
+}
+
+#section04 .verline .line3 {
+    width: 1px;
+    height: 630px;
+    background-color: rgb(91, 91, 91);
+}
+
+#section04 .verline div + div{
+    margin-left: 419px;
+}
+
+
+#section05 {
+    background: #000;
+    position: relative;
+}
+
+#section05 .topbutton {
+    position: absolute;
+    z-index: 100;
+    bottom: 85px;
+    right: 97px;
+    cursor: pointer;
+}
+
+#section05 .wave {
+    position: absolute;
+    width: 2527px;
+    height: 916px;
+    top: 26px;
+    left: -127px;
+}
+
+#section05 .up {
+    top: 382px;
+    text-shadow: 1px 0px 3px #000;
+}
+#section05 .down {
+    top: 470px;
+    text-shadow: 1px 0px 3px #000;
+}
+
+#section05 .contact {
+    position: absolute;
+    width: 222px;
+    height: 112px;
+    bottom: 68px;
+    right: 565px;
+}
+
+#section05 .contact .ct1 {
+    font-size: 2.8rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+#section05 .contact .ct2 {
+    margin-top: 34px;
+    font-size: 2.2rem;
+    font-family: 'valera', sans-serif;
+    color: white;
+}
+#section05 .contact .ct3 {
+    margin-top: 22px;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* #footer,
+#footer .fp-tableCell {
+    height: 160px !important;
+    background: gray;
+} */
